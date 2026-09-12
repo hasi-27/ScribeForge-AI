@@ -1,0 +1,15 @@
+{
+  "name": "ai-content-writing-platform",
+  "version": "1.0.0",
+  "description": "AI Content Writing Platform - Production Grade Solution",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "node run-dev.js",
+    "build": "cd server && npm run build && cd ../client && npm run build"
+  },
+  "keywords": ["ai", "social-media", "content-generation", "multi-industry"],
+  "author": "Antigravity",
+  "license": "MIT"
+}
